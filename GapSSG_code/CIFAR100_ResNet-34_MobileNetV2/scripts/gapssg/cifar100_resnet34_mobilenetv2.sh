@@ -1,0 +1,17 @@
+python datafree_kd.py \
+--method gapssg \
+--dataset cifar100 \
+--batch_size 128 \
+--synthesis_batch_size 256 \
+--teacher resnet34 \
+--student mobilenetv2 \
+--lr 0.2 \
+--kd_steps 400 \
+--ep_steps 400 \
+--g_steps 200 \
+--lr_g 2e-3 \
+--gpu 2 \
+--seed 0 \
+--T 20 \
+--save_dir run/sample_gapssg \
+--log_tag log_gapssg
