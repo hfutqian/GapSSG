@@ -1,5 +1,5 @@
 # Unpacking the Gap Box Against Data-Free Knowledge Distillation
-
+This repository is the official code for the paper "Unpacking the Gap Box Against Data-Free Knowledge Distillation" by Yang Wang, Biao Qian, Haipeng Liu, Yong Rui and Meng Wang.
 
 ### Dependencies
 
