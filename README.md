@@ -1,12 +1,13 @@
 # Unpacking the Gap Box Against Data-Free Knowledge Distillation
 This repository is the official code for the paper "Unpacking the Gap Box Against Data-Free Knowledge Distillation" by Yang Wang, Biao Qian, Haipeng Liu, Yong Rui and Meng Wang.
 
-### Dependencies
+## Dependencies
 
 Python 3.6
 PyTorch 1.2.0
 dependencies in requirements.txt
 
+## Usages
 
 ### Installation
 Install pytorch and other dependencies:
