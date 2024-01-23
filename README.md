@@ -5,7 +5,7 @@ This repository is the official code for the paper "Unpacking the Gap Box Agains
 
 * Python 3.6
 * PyTorch 1.2.0
-* dependencies in requirements.txt
+* Dependencies in requirements.txt
 
 ## Usages
 
