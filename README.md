@@ -30,7 +30,7 @@ To train MobileNetV2 (student model) with ResNet-34 (teacher model) on CIFAR-100
 
 
 ## Citation
-If you find the codes useful for your research, please consider citing
+If you find the project codes useful for your research, please consider citing
 ```
 @ARTICLE{10476709,
   author={Wang, Yang and Qian, Biao and Liu, Haipeng and Rui, Yong and Wang, Meng},
