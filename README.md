@@ -29,4 +29,20 @@ To train MobileNetV2 (student model) with ResNet-34 (teacher model) on CIFAR-100
     bash scripts/gapssg/cifar100_resnet34_mobilenetv2.sh
 
 
+## Citation
+If you find the codes useful for your research, please consider citing
+```
+@ARTICLE{10476709,
+  author={Wang, Yang and Qian, Biao and Liu, Haipeng and Rui, Yong and Wang, Meng},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Unpacking the Gap Box Against Data-Free Knowledge Distillation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Training;Art;Data models;Analytical models;Knowledge engineering;Generators;Three-dimensional displays;Data-free knowledge distillation;derived gap;empirical distilled risk;generative model;inherent gap},
+  doi={10.1109/TPAMI.2024.3379505}}
+
+```
+
 
