@@ -42,6 +42,8 @@ To train MobileNetV2 (student model) with ResNet-34 (teacher model) on CIFAR-100
 
 ## Results
 
+The visual analysis via the loss landscape further justifies the importance of tracking student’s training route and pursuing the ideal teacher T*.
+
 ![visual](https://github.com/hfutqian/GapSSG/blob/main/images/visual.png)
 
 ## Citation
