@@ -41,6 +41,9 @@ To train MobileNetV2 (student model) with ResNet-34 (teacher model) on CIFAR-100
 
 
 ## Results
+The performance of our models is measured by Top-1 classification accuracy (%), which is reported below:
+
+![table1](https://github.com/hfutqian/GapSSG/blob/main/images/table1.png)
 
 The visual analysis via the loss landscape further justifies the importance of tracking student’s training route and pursuing the ideal teacher T*.
 
