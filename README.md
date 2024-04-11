@@ -2,13 +2,13 @@
 This repository is the official code for the paper "Unpacking the Gap Box Against Data-Free Knowledge Distillation" by Yang Wang, Biao Qian, Haipeng Liu, Yong Rui and Meng Wang.
 
 ## Introduction
-We study the **gap disturbance issue** between teacher (T) and student (S) in knowledge distillation (KD), which has attracted increasing attention under data-driven setting since it enables the understanding on why KD works well and improves their effectiveness. Unlike data-driven setting, the significant **challenges** under data-free scenario lie in: when the generated samples are "good" for S with the gap disturbance; how to yield the ideal generated samples by defeating the gap issue, to maximally benefit S. To sum up, our major contributions are summarized as follows:
+We study the **gap disturbance issue** between teacher (T) and student (S) in knowledge distillation (KD), which has attracted increasing attention under data-driven setting since it enables the understanding on why KD works well and improves their effectiveness. Unlike data-driven setting, the significant **challenges** under data-free scenario lie in: *when the generated samples are "good" for S with the gap disturbance*; *how to yield the ideal generated samples by defeating the gap issue*, to maximally benefit S. To sum up, our major contributions are summarized as follows:
 
 ![figure1](https://github.com/hfutqian/GapSSG/blob/main/images/figure1.png)
 
 (1) We deliver **the first attempt** to study how the gap disturbance between T and S affects KD process in data-free scenario. Following that, the **theoretical analysis** suggests the existence of an **ideal teacher** T* and an upper bound for the generalization gap of S, implying that generalization heavily relies on the mismatch between T and the ideal teacher T*, which serves as the theoretical basis for generating "good" samples.
 
-![bound](https://github.com/hfutqian/GapSSG/blob/main/images/bound.png#pic_center=1111*304)
+![bound](https://github.com/hfutqian/GapSSG/blob/main/images/bound.png)
 
 (2) Motivated by the above, we further propose to unpack the **reality gap box** between T and S into the **derived** and **inherent** gap, which helps generate the "**good**" samples to maximally benefit S with the fixed T by defeating the gap disturbance.
 
