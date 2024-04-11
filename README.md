@@ -40,6 +40,10 @@ To train MobileNetV2 (student model) with ResNet-34 (teacher model) on CIFAR-100
     bash scripts/gapssg/cifar100_resnet34_mobilenetv2.sh
 
 
+## Results
+
+![visual](https://github.com/hfutqian/GapSSG/blob/main/images/visual.png)
+
 ## Citation
 If you find the project codes useful for your research, please consider citing
 ```
