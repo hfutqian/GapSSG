@@ -8,7 +8,7 @@ We study the **gap disturbance issue** between teacher (T) and student (S) in kn
 
 (1) We deliver **the first attempt** to study how the gap disturbance between T and S affects KD process in data-free scenario. Following that, the **theoretical analysis** suggests the existence of an **ideal teacher** T* and an upper bound for the generalization gap of S, implying that generalization heavily relies on the mismatch between T and the ideal teacher T*, which serves as the theoretical basis for generating "good" samples.
 
-![bound](https://github.com/hfutqian/GapSSG/blob/main/images/bound.png)
+![bound](https://github.com/hfutqian/GapSSG/blob/main/images/bound.png#pic_center=1111*304)
 
 (2) Motivated by the above, we further propose to unpack the **reality gap box** between T and S into the **derived** and **inherent** gap, which helps generate the "**good**" samples to maximally benefit S with the fixed T by defeating the gap disturbance.
 
